@@ -8,7 +8,7 @@ Background: setup test and genrate token
 	   Given url "https://tek-insurance-api.azurewebsites.net/"
 
       
-Scenario: create a valid  account 
+Scenario: create a valid  accounts 
 Given path "/api/accounts/add-primary-account"
 And header Authorization = "Beare " + validToken
 #calling java class is featur file. this utility will create object from java class
@@ -19,7 +19,7 @@ And request
 {
  
   "email": "#(autoEmail)",
-  "firstName": "safi",
+  "firstName": "ghul",
   "lastName": "Haroon",
   "title": "MR.",
   "gender": "MALE",
