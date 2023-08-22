@@ -10,7 +10,7 @@ public class TestRunner {
 		// and tags
 		
 		return Karate.run("classpath:features")
-				.tags("@regression");
+				.tags("@smoke");
 		
 	}
 
