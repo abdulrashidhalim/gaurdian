@@ -1,7 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: api.runner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.472 s <<< FAILURE! - in api.runner.TestRunner
-runTest  Time elapsed: 0.472 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: no features or scenarios found: [classpath:features]
-
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.246 s - in api.runner.TestRunner
